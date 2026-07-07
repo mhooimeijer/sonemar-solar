@@ -811,7 +811,7 @@ header.main-header .header-sticky.active{
 	right: 0;
 	bottom: 0;
 	background: var(--black-color);
-	opacity: 0.55;
+	/*opacity: 0.55;*/
 	z-index: 1;
 }
 
