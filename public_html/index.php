@@ -53,7 +53,7 @@ $footer = $page->getFooter();
             <div class="col-lg-5">
                 <div class="hero-content">
                     <div class="section-title">
-                        <a href="TBD.php" class="btn-default">Panels On Sale Now - Call for Information</a>
+                        <a href="#" class="btn-default">Panels On Sale Now - Call for Information <br> <br>Or send an email: martijn.hooimeijer@sonemar-solar.com</a>
                         <div>
                             <h4 class="float-end">ex VAT (min 20 panels)</h4>
                             <h1 class="text-anime h1 float-end">&#8369; 5199</h1><br>
