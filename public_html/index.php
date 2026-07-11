@@ -30,6 +30,7 @@ $footer = $page->getFooter();
 
     <div class="container">
         <div class="row align-items-center">
+
             <div class="col-lg-7">
                 <!-- Hero Left Content Start -->
                 <div class="hero-content">
@@ -47,21 +48,26 @@ $footer = $page->getFooter();
                         <a href="TBD.php" class="btn-default">Our Services</a>
                         <a href="TBD.php" class="btn-default btn-border">Contact Now</a>
                     </div>
+                    <div>
+                        <a href="#" class="btn-default mt-4" style="background-color: yellow">Panels On Sale Now - Call for Information <br>Or send an email: martijn.hooimeijer@sonemar-solar.com</a>
+
+                    </div>
                 </div>
                 <!-- Hero Left Content End -->
             </div>
             <div class="col-lg-5">
                 <div class="hero-content">
                     <div class="section-title">
-                        <a href="#" class="btn-default">Panels On Sale Now - Call for Information <br> <br>Or send an email: martijn.hooimeijer@sonemar-solar.com</a>
+<!--                        <a href="#" class="btn-default">Panels On Sale Now - Call for Information <br>Or send an email: martijn.hooimeijer@sonemar-solar.com</a>-->
                         <div>
-                            <h4 class="float-end">ex VAT (min 20 panels)</h4>
-                            <h1 class="text-anime h1 float-end">&#8369; 5199</h1><br>
+
+                            <h1 class="text-anime h1">&#8369; 5499<h4>ex VAT (min 20 panels)</h4></h1>
+                            <p class="btn-default m-2" style="color: white!; background-color: yellow">Special discounts are available for resellers and buyers in bulk.</p>
                         </div>
                     </div>
                     <div class="hero-content-body wow fadeInUp" data-wow-delay="0.5s">
                         <a href="docs/2026-%20Ginza%20Bifacial-590-610W.pdf" >
-                        <img class="img-fluid wow fadeInUp" style="background: white; opacity: 100%"
+                        <img class="img-fluid wow fadeInUp shadow" style="background: white; opacity: 100%"
                              data-wow-delay="0.5s" src="images/610_Watt_Solar_Panels.png" alt="">
                         </a>
                         <!--                <img  style="background: white; opacity: 100%"  src="images/610_Watt_Solar_Panels.png" alt="">-->
@@ -127,6 +133,102 @@ $footer = $page->getFooter();
     </div>
 </div>
 <!-- About Section End -->
+<!-- Latest News Section Start -->
+<div id="news" class="latest-news">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <!-- Section Title Start -->
+                <div class="section-title">
+                    <h3 class="wow fadeInUp">Recent Articles</h3>
+                    <h2 class="text-anime">Our Latest News</h2>
+                </div>
+                <!-- Section Title End -->
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-4">
+                <!-- Blog Item Start -->
+                <div class="blog-item wow fadeInUp" data-wow-delay="0.25s">
+                    <div class="post-featured-image">
+                        <figure class="image-anime">
+                            <img src="images/solar_storage_exhibition_4-COLLAGE.jpg" alt="">
+                        </figure>
+                    </div>
+
+                    <div class="post-item-body">
+                        <h2><a href="blog_solar_storage_exhibition_2026.php">Attending Solar & Storage Exhibition, Manila</a></h2>
+                        <div class="post-meta">
+                            <ul>
+                                <li><a href="blog_solar_storage_exhibition_2026.php"><i class="fa-regular fa-calendar-days"></i> 18-19 May 2026</a></li>
+                                <li><a href="blog_solar_storage_exhibition_2026.php"><i class="fa-solid fa-tag"></i> Exhibition</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="btn-readmore">
+                            <a href="blog_solar_storage_exhibition_2026.php" class="btn-default">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Blog Item End -->
+            </div>
+
+            <div class="col-lg-4">
+                <!-- Blog Item Start -->
+                <div class="blog-item wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="post-featured-image">
+                        <figure class="image-anime">
+                            <img src="images/Meeting_DASH-COLLAGE_sm.jpg" alt="">
+                        </figure>
+                    </div>
+
+                    <div class="post-item-body">
+                        <h2><a href="blog_supplier_connections.php">Building Supplier Connections</a></h2>
+                        <div class="post-meta">
+                            <ul>
+                                <li><a href="blog_supplier_connections.php"><i class="fa-regular fa-calendar-days"></i> 09 Feb 2026</a></li>
+                                <li><a href="blog_supplier_connections.php"><i class="fa-solid fa-tag"></i> Suppliers</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="btn-readmore">
+                            <a href="blog_supplier_connections.php" class="btn-default">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Blog Item End -->
+            </div>
+
+            <div class="col-lg-4">
+                <!-- Blog Item Start -->
+                <div class="blog-item wow fadeInUp" data-wow-delay="0.75s">
+                    <div class="post-featured-image">
+                        <figure class="image-anime">
+                            <img src="images/electric_charging_station.webp" alt="">
+                        </figure>
+                    </div>
+
+                    <div class="post-item-body">
+                        <h2><a href="TBD.php">Establishing Powerful Alliances and Stakeholder Ecosystems</a></h2>
+                        <div class="post-meta">
+                            <ul>
+                                <li><a href="TBD.php"><i class="fa-regular fa-calendar-days"></i> 09 Feb 2026</a></li>
+                                <li><a href="TBD.php"><i class="fa-solid fa-tag"></i> Solar Panel</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="btn-readmore">
+                            <a href="TBD.php" class="btn-default">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Blog Item End -->
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Latest News Section End -->
 
 <!-- Our Services Section Start -->
 <div id="services" class="our-services">
@@ -698,102 +800,6 @@ $footer = $page->getFooter();
 </div>
 <!-- Solar Calculator Section End -->
 
-<!-- Latest News Section Start -->
-<div id="news" class="latest-news">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <!-- Section Title Start -->
-                <div class="section-title">
-                    <h3 class="wow fadeInUp">Recent Articles</h3>
-                    <h2 class="text-anime">Our Latest News</h2>
-                </div>
-                <!-- Section Title End -->
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-lg-4">
-                <!-- Blog Item Start -->
-                <div class="blog-item wow fadeInUp" data-wow-delay="0.25s">
-                    <div class="post-featured-image">
-                        <figure class="image-anime">
-                            <img src="images/e_trike.jpg" alt="">
-                        </figure>
-                    </div>
-
-                    <div class="post-item-body">
-                        <h2><a href="TBD.php">Starting an exciting new Solar Company in The Philippines</a></h2>
-                        <div class="post-meta">
-                            <ul>
-                                <li><a href="TBD.php"><i class="fa-regular fa-calendar-days"></i> 09 Feb 2026</a></li>
-                                <li><a href="TBD.php"><i class="fa-solid fa-tag"></i> Solar Panel</a></li>
-                            </ul>
-                        </div>
-
-                        <div class="btn-readmore">
-                            <a href="TBD.php" class="btn-default">Read More</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- Blog Item End -->
-            </div>
-
-            <div class="col-lg-4">
-                <!-- Blog Item Start -->
-                <div class="blog-item wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="post-featured-image">
-                        <figure class="image-anime">
-                            <img src="images/agrimain.jpg" alt="">
-                        </figure>
-                    </div>
-
-                    <div class="post-item-body">
-                        <h2><a href="TBD.php">Building Supplier Connections</a></h2>
-                        <div class="post-meta">
-                            <ul>
-                                <li><a href="TBD.php"><i class="fa-regular fa-calendar-days"></i> 09 Feb 2026</a></li>
-                                <li><a href="TBD.php"><i class="fa-solid fa-tag"></i> Solar Panel</a></li>
-                            </ul>
-                        </div>
-
-                        <div class="btn-readmore">
-                            <a href="TBD.php" class="btn-default">Read More</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- Blog Item End -->
-            </div>
-
-            <div class="col-lg-4">
-                <!-- Blog Item Start -->
-                <div class="blog-item wow fadeInUp" data-wow-delay="0.75s">
-                    <div class="post-featured-image">
-                        <figure class="image-anime">
-                            <img src="images/electric_charging_station.webp" alt="">
-                        </figure>
-                    </div>
-
-                    <div class="post-item-body">
-                        <h2><a href="TBD.php">Establishing Powerful Alliances and Stakeholder Ecosystems</a></h2>
-                        <div class="post-meta">
-                            <ul>
-                                <li><a href="TBD.php"><i class="fa-regular fa-calendar-days"></i> 09 Feb 2026</a></li>
-                                <li><a href="TBD.php"><i class="fa-solid fa-tag"></i> Solar Panel</a></li>
-                            </ul>
-                        </div>
-
-                        <div class="btn-readmore">
-                            <a href="TBD.php" class="btn-default">Read More</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- Blog Item End -->
-            </div>
-        </div>
-    </div>
-</div>
-<!-- Latest News Section End -->
 <?= $footer ?>
 
 </body>
